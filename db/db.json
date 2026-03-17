@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sidarth",
+      "name": "Sidarth S",
+      "profilePic": "/images/20221029_063608.jpg",
+      "bio": "Web Developer",
+      "followers": 120,
+      "following": 80
+    },
+    {
+      "id": 2,
+      "username": "john_dev",
+      "name": "John Carter",
+      "profilePic": "/images/20221029_063608.jpg",
+      "bio": "Frontend Developer",
+      "followers": 300,
+      "following": 150
+    },
+    {
+      "id": 3,
+      "username": "emma_design",
+      "name": "Emma Watson",
+      "profilePic": "/images/20221029_063608.jpg",
+      "bio": "UI Designer",
+      "followers": 520,
+      "following": 200
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "image": "/images/20221029_063608.jpg",
+      "caption": "First post on my Instagram clone 🚀",
+      "likes": 45,
+      "createdAt": "2026-03-01T10:30:00"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "image": "/images/20221029_063608.jpg",
+      "caption": "Working on some cool UI designs",
+      "likes": 120,
+      "createdAt": "2026-03-02T14:20:00"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "image": "/images/20221029_063608.jpg",
+      "caption": "Beautiful sunset today 🌅",
+      "likes": 98,
+      "createdAt": "2026-03-03T18:10:00"
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "text": "Nice post!",
+      "createdAt": "2026-03-01T11:00:00"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "text": "Looks awesome 🔥",
+      "createdAt": "2026-03-01T11:10:00"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 1,
+      "text": "Great design!",
+      "createdAt": "2026-03-02T15:00:00"
+    }
+  ],
+
+  "stories": [
+    {
+      "id": 1,
+      "userId": 2,
+      "image": "/images/20221029_063608.jpg",
+      "createdAt": "2026-03-03T08:00:00"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "image": "/images/20221029_063608.jpg",
+      "createdAt": "2026-03-03T09:30:00"
+    }
+  ]
+}
