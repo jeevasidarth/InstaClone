@@ -93,5 +93,37 @@
       "image": "/images/20221029_063608.jpg",
       "createdAt": "2026-03-03T09:30:00"
     }
+  ],
+
+  "suggestions": [
+    {
+      "id": 4,
+      "username": "alex_codes",
+      "name": "Alex Johnson",
+      "profilePic": "/images/20221029_063608.jpg",
+      "bio": "Full Stack Developer",
+      "followers": 210,
+      "following": 180
+    },
+    {
+      "id": 5,
+      "username": "sophia_ui",
+      "name": "Sophia Lee",
+      "profilePic": "/images/20221029_063608.jpg",
+      "bio": "UI/UX Enthusiast",
+      "followers": 340,
+      "following": 220
+    },
+    {
+      "id": 6,
+      "username": "mike_dev",
+      "name": "Mike Brown",
+      "profilePic": "/images/20221029_063608.jpg",
+      "bio": "Backend Engineer",
+      "followers": 150,
+      "following": 90
+    }
   ]
+
 }
+
