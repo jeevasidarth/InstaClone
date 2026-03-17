@@ -20,7 +20,7 @@ function Post() {
   }, []);
 
   return (
-    <div>
+    <div  >
 
       {posts.length > 0 && users.length > 0 ? (
 
@@ -29,32 +29,30 @@ function Post() {
           const user = users.find(u => u.id == post.userId);
 
           return (
-
+<div className=" justify-content-center">
             <div key={post.id} style={{border:"1px solid #ccc", margin:"20px", padding:"10px", width:"400px"}}>
               <div style={{display:"flex", alignItems:"center", gap:"10px"}}>
-                <img
-                  src={user?.profilePic}
-                  alt="profile"
-                  width="40"
-                  height="40"
-                  style={{borderRadius:"50%"}}
-                />
+                <img className="pimage" src={user?.profilePic} alt="profile"
+                 
+                  style={{borderRadius:"50%"}}/>
 
                 <p>{user?.username}</p>
 
               </div>
               <div>
-                <img
-                  src={post.image}
-                  alt="post"
-                  width="100%"
-                  style={{marginTop:"10px"}}
-                />
+                <img className="image" src={post.image} alt="post" width="100%" />
               </div>
-              <p style={{marginTop:"10px"}}>
-                {post.caption}
-              </p>
-
+              <div>
+                <i className="bi bi-heart"></i>
+                <i className="bi bi-chat"></i>
+                <i className="bi bi-send"></i>
+              </div>
+              <div>
+                <p><b>{post.likes}likes</b></p>
+                <p style={{marginTop:"10px"}}>{post.caption}</p>
+              </div>
+              
+</div>
             </div>
 
           );
